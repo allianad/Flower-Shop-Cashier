@@ -107,7 +107,7 @@ public class Connect extends JFrame implements ActionListener{
 
             //Opens main frame
             EventQueue.invokeLater(() -> {
-                new Main().setVisible(true); 
+                new Main(dburl, username, password).setVisible(true); 
             });
         }
     }
