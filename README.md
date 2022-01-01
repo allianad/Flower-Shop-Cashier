@@ -7,7 +7,7 @@ To compile:
      javac -cp .:lib/mysql-connector-java-8.0.23.jar src/Connect.java && java -cp .:lib/mysql-connector-java-8.0.23.jar src/Connect    
 
 How to use:
-1. Employees are first taken to the database initialization page where they enter the dburl, username and password to connect to the database.
+1. Employees are first taken to the database initialization page where they enter the dburl, username and password to connect to the database. 
    <img width="395" alt="Screen Shot 2021-12-31 at 10 49 10 PM" src="https://user-images.githubusercontent.com/32075424/147844802-3f018412-fcd0-4264-89e2-166adbe7f795.png">
 
 2. Once the connection is established, the user is taken to the cashier page.
